@@ -1,0 +1,1 @@
+Disabilitare pulsante menu bar quando finistra già attiva

@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3220A551B3DEC5E00FA950B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3220A541B3DEC5E00FA950B /* AppDelegate.m */; };
+		B3220A571B3DEC5E00FA950B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3220A561B3DEC5E00FA950B /* main.m */; };
+		B3220A5C1B3DEC5E00FA950B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3220A5A1B3DEC5E00FA950B /* MainMenu.xib */; };
+		B3220A681B3DEC5E00FA950B /* QuickLookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3220A671B3DEC5E00FA950B /* QuickLookTests.m */; };
+		B32ABF801B3FF859007832F3 /* local_camera_database.txt in Resources */ = {isa = PBXBuildFile; fileRef = B32ABF7F1B3FF859007832F3 /* local_camera_database.txt */; };
+		B3642A141B5D826E0034C99D /* loading-blue.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3642A131B5D826E0034C99D /* loading-blue.gif */; };
+		B368A1971BA6C57100EA86DB /* add_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B368A1961BA6C57100EA86DB /* add_btn.png */; };
+		B368A19B1BA6C63600EA86DB /* reload_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B368A19A1BA6C63600EA86DB /* reload_btn.png */; };
+		B368A19D1BA6C98A00EA86DB /* picture_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B368A19C1BA6C98A00EA86DB /* picture_btn.png */; };
+		B368A19F1BA6C9DB00EA86DB /* all_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B368A19E1BA6C9DB00EA86DB /* all_btn.png */; };
+		B368A1A11BA6F67F00EA86DB /* window_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B368A1A01BA6F67F00EA86DB /* window_btn.png */; };
+		B37E4F5B1B3DEF5D00C55E21 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37E4F5A1B3DEF5D00C55E21 /* WebKit.framework */; };
+		B37E4F5D1B3F0DC100C55E21 /* dms.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F5C1B3F0DC100C55E21 /* dms.jpeg */; };
+		B3A097031B904338005FA8A2 /* open_bug.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3A097021B904338005FA8A2 /* open_bug.txt */; };
+		B3B629A71B79F98D00E2D388 /* webcam-offline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3B629A61B79F98D00E2D388 /* webcam-offline.jpg */; };
+		B3B9CF0E1B6E73FD004A4C8E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B9CF0D1B6E73FD004A4C8E /* Media.xcassets */; };
+		B3EB4BC41B6FEBDA00F6A46A /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EB4BC31B6FEBDA00F6A46A /* app_logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3220A621B3DEC5E00FA950B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3220A461B3DEC5E00FA950B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3220A4D1B3DEC5E00FA950B;
+			remoteInfo = QuickLook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3220A4E1B3DEC5E00FA950B /* QuickLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3220A521B3DEC5E00FA950B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3220A531B3DEC5E00FA950B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3220A541B3DEC5E00FA950B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3220A561B3DEC5E00FA950B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3220A5B1B3DEC5E00FA950B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3220A611B3DEC5E00FA950B /* QuickLookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3220A661B3DEC5E00FA950B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3220A671B3DEC5E00FA950B /* QuickLookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickLookTests.m; sourceTree = "<group>"; };
+		B32ABF7F1B3FF859007832F3 /* local_camera_database.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local_camera_database.txt; sourceTree = "<group>"; };
+		B3642A131B5D826E0034C99D /* loading-blue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "loading-blue.gif"; path = "../QuickLook/loading-blue.gif"; sourceTree = "<group>"; };
+		B368A1961BA6C57100EA86DB /* add_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_btn.png; sourceTree = "<group>"; };
+		B368A19A1BA6C63600EA86DB /* reload_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_btn.png; sourceTree = "<group>"; };
+		B368A19C1BA6C98A00EA86DB /* picture_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture_btn.png; sourceTree = "<group>"; };
+		B368A19E1BA6C9DB00EA86DB /* all_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all_btn.png; sourceTree = "<group>"; };
+		B368A1A01BA6F67F00EA86DB /* window_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window_btn.png; sourceTree = "<group>"; };
+		B37E4F5A1B3DEF5D00C55E21 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B37E4F5C1B3F0DC100C55E21 /* dms.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dms.jpeg; sourceTree = "<group>"; };
+		B3A097021B904338005FA8A2 /* open_bug.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = open_bug.txt; sourceTree = "<group>"; };
+		B3B629A61B79F98D00E2D388 /* webcam-offline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "webcam-offline.jpg"; sourceTree = "<group>"; };
+		B3B9CF0D1B6E73FD004A4C8E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		B3EB4BC31B6FEBDA00F6A46A /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3220A4B1B3DEC5E00FA950B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37E4F5B1B3DEF5D00C55E21 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3220A5E1B3DEC5E00FA950B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3220A451B3DEC5E00FA950B = {
+			isa = PBXGroup;
+			children = (
+				B37E4F5C1B3F0DC100C55E21 /* dms.jpeg */,
+				B37E4F5A1B3DEF5D00C55E21 /* WebKit.framework */,
+				B3220A501B3DEC5E00FA950B /* QuickLook */,
+				B3220A641B3DEC5E00FA950B /* QuickLookTests */,
+				B3220A4F1B3DEC5E00FA950B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3220A4F1B3DEC5E00FA950B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3220A4E1B3DEC5E00FA950B /* QuickLook.app */,
+				B3220A611B3DEC5E00FA950B /* QuickLookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3220A501B3DEC5E00FA950B /* QuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				B3A0A60F1B4EF2A60097E1F8 /* Cameras Resources */,
+				B352F6871B616CFB0066D115 /* media */,
+				B3220A531B3DEC5E00FA950B /* AppDelegate.h */,
+				B3220A541B3DEC5E00FA950B /* AppDelegate.m */,
+				B3220A5A1B3DEC5E00FA950B /* MainMenu.xib */,
+				B3220A511B3DEC5E00FA950B /* Supporting Files */,
+			);
+			path = QuickLook;
+			sourceTree = "<group>";
+		};
+		B3220A511B3DEC5E00FA950B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B9CF0D1B6E73FD004A4C8E /* Media.xcassets */,
+				B3220A521B3DEC5E00FA950B /* Info.plist */,
+				B3220A561B3DEC5E00FA950B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3220A641B3DEC5E00FA950B /* QuickLookTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3220A671B3DEC5E00FA950B /* QuickLookTests.m */,
+				B3220A651B3DEC5E00FA950B /* Supporting Files */,
+			);
+			path = QuickLookTests;
+			sourceTree = "<group>";
+		};
+		B3220A651B3DEC5E00FA950B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3220A661B3DEC5E00FA950B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B352F6871B616CFB0066D115 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				B3B629A61B79F98D00E2D388 /* webcam-offline.jpg */,
+				B368A1961BA6C57100EA86DB /* add_btn.png */,
+				B368A1A01BA6F67F00EA86DB /* window_btn.png */,
+				B368A19E1BA6C9DB00EA86DB /* all_btn.png */,
+				B368A19C1BA6C98A00EA86DB /* picture_btn.png */,
+				B3642A131B5D826E0034C99D /* loading-blue.gif */,
+				B368A19A1BA6C63600EA86DB /* reload_btn.png */,
+				B3EB4BC31B6FEBDA00F6A46A /* app_logo.png */,
+			);
+			name = media;
+			path = QuickLookTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3A0A60F1B4EF2A60097E1F8 /* Cameras Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B32ABF7F1B3FF859007832F3 /* local_camera_database.txt */,
+				B3A097021B904338005FA8A2 /* open_bug.txt */,
+			);
+			name = "Cameras Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3220A4D1B3DEC5E00FA950B /* QuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3220A6B1B3DEC5E00FA950B /* Build configuration list for PBXNativeTarget "QuickLook" */;
+			buildPhases = (
+				B3220A4A1B3DEC5E00FA950B /* Sources */,
+				B3220A4B1B3DEC5E00FA950B /* Frameworks */,
+				B3220A4C1B3DEC5E00FA950B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickLook;
+			productName = QuickLook;
+			productReference = B3220A4E1B3DEC5E00FA950B /* QuickLook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3220A601B3DEC5E00FA950B /* QuickLookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3220A6E1B3DEC5E00FA950B /* Build configuration list for PBXNativeTarget "QuickLookTests" */;
+			buildPhases = (
+				B3220A5D1B3DEC5E00FA950B /* Sources */,
+				B3220A5E1B3DEC5E00FA950B /* Frameworks */,
+				B3220A5F1B3DEC5E00FA950B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3220A631B3DEC5E00FA950B /* PBXTargetDependency */,
+			);
+			name = QuickLookTests;
+			productName = QuickLookTests;
+			productReference = B3220A611B3DEC5E00FA950B /* QuickLookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3220A461B3DEC5E00FA950B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marco Dalprato";
+				TargetAttributes = {
+					B3220A4D1B3DEC5E00FA950B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B3220A601B3DEC5E00FA950B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B3220A4D1B3DEC5E00FA950B;
+					};
+				};
+			};
+			buildConfigurationList = B3220A491B3DEC5E00FA950B /* Build configuration list for PBXProject "QuickLook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3220A451B3DEC5E00FA950B;
+			productRefGroup = B3220A4F1B3DEC5E00FA950B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3220A4D1B3DEC5E00FA950B /* QuickLook */,
+				B3220A601B3DEC5E00FA950B /* QuickLookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3220A4C1B3DEC5E00FA950B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A097031B904338005FA8A2 /* open_bug.txt in Resources */,
+				B368A1971BA6C57100EA86DB /* add_btn.png in Resources */,
+				B3B629A71B79F98D00E2D388 /* webcam-offline.jpg in Resources */,
+				B368A19B1BA6C63600EA86DB /* reload_btn.png in Resources */,
+				B3220A5C1B3DEC5E00FA950B /* MainMenu.xib in Resources */,
+				B3B9CF0E1B6E73FD004A4C8E /* Media.xcassets in Resources */,
+				B37E4F5D1B3F0DC100C55E21 /* dms.jpeg in Resources */,
+				B368A1A11BA6F67F00EA86DB /* window_btn.png in Resources */,
+				B32ABF801B3FF859007832F3 /* local_camera_database.txt in Resources */,
+				B3EB4BC41B6FEBDA00F6A46A /* app_logo.png in Resources */,
+				B368A19D1BA6C98A00EA86DB /* picture_btn.png in Resources */,
+				B3642A141B5D826E0034C99D /* loading-blue.gif in Resources */,
+				B368A19F1BA6C9DB00EA86DB /* all_btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3220A5F1B3DEC5E00FA950B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3220A4A1B3DEC5E00FA950B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3220A571B3DEC5E00FA950B /* main.m in Sources */,
+				B3220A551B3DEC5E00FA950B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3220A5D1B3DEC5E00FA950B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3220A681B3DEC5E00FA950B /* QuickLookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3220A631B3DEC5E00FA950B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3220A4D1B3DEC5E00FA950B /* QuickLook */;
+			targetProxy = B3220A621B3DEC5E00FA950B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3220A5A1B3DEC5E00FA950B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3220A5B1B3DEC5E00FA950B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3220A691B3DEC5E00FA950B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3220A6A1B3DEC5E00FA950B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3220A6C1B3DEC5E00FA950B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuickLook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3220A6D1B3DEC5E00FA950B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QuickLook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3220A6F1B3DEC5E00FA950B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuickLookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickLook.app/Contents/MacOS/QuickLook";
+			};
+			name = Debug;
+		};
+		B3220A701B3DEC5E00FA950B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuickLookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickLook.app/Contents/MacOS/QuickLook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3220A491B3DEC5E00FA950B /* Build configuration list for PBXProject "QuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3220A691B3DEC5E00FA950B /* Debug */,
+				B3220A6A1B3DEC5E00FA950B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3220A6B1B3DEC5E00FA950B /* Build configuration list for PBXNativeTarget "QuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3220A6C1B3DEC5E00FA950B /* Debug */,
+				B3220A6D1B3DEC5E00FA950B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3220A6E1B3DEC5E00FA950B /* Build configuration list for PBXNativeTarget "QuickLookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3220A6F1B3DEC5E00FA950B /* Debug */,
+				B3220A701B3DEC5E00FA950B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3220A461B3DEC5E00FA950B /* Project object */;
+}
